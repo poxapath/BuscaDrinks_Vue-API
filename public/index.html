@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Drinks - API TheCocktailDB</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+<div id="app">
+    <header>
+        <h1>Busca de Drinks</h1>
+        <input type="text" v-model="textoPesquisa" placeholder="Pesquisar por um drink">
+        <button @click="buscarDrinks">Buscar Drinks</button>
+    </header>
+    <div class="drink-container">
+        <ul>
+            <li v-for="drink in drinksFiltrados" :key="drink.idDrink">
+                <div class="drink-card">
+                    <img :src="drink.strDrinkThumb" alt="Imagem do drink">
+                    <h2>{{ drink.strDrink }}</h2>
+                    <p>{{ drink.strCategory }}</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024 Busca de Drinks. Todos os direitos reservados.</p>
+    </footer>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
