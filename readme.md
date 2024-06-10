@@ -23,13 +23,15 @@ Desenvolvi esse site como prova final da máteria "Desenvolvimento Web II", do c
 
 # 🎴 Interface
 
-| Tela inicial                                                                                                            |
-|-------------------------------------------------------------------------------------------------------------------------|
-| ![Tela Inicial](/drink-finder/img/tela_com_todos_os_drinks.png) |
+**- Tela inicial:** 
+<br>
 
-| Tela com pesquisa                                                                                                       |  
-|------------------------------------------------------------------------------------------------------------------------|  
-| ![Tela com Pesquisa](/drink-finder/img/tela_com_filtro.png) |
+<img src="img/tela_com_todos_os_drinks.png" width="1000" height="500"></img>
+
+**- Tela com pesquisa:** 
+<br>
+
+<img src="img/tela_com_filtro.png" width="810" height="400"></img>
 
 ---
 
